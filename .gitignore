@@ -1,0 +1,20 @@
+# Este repo es solo el código del pipeline experimental (ver README.md).
+# La memoria LaTeX y los documentos de planificación se entregan aparte y
+# nunca deben subirse aquí.
+plantilla_uax_tfm/
+planning.md
+MARL_semaforos_inteligentes.md
+
+# LibSignal se referencia como git submodule (fork propio con los parches
+# GPU + el agente AXLight); su contenido se gestiona con su propio
+# .gitignore dentro de experimentos/LibSignal/, no desde aquí.
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Sistema / editor
+.DS_Store
+.idea/
+.vscode/

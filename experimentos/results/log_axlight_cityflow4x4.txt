@@ -1,0 +1,16 @@
+# Log de stdout no disponible para este run.
+# El fichero original fue eliminado durante una pasada de limpieza
+# mientras el proceso seguía corriendo, lo que dejó el descriptor de
+# fichero del proceso 'tee' apuntando a un inodo borrado.
+#
+# Las métricas completas del entrenamiento están disponibles en los logs
+# nativos de LibSignal:
+#   experimentos/LibSignal/data/output_data/tsc/cityflow_axlight/cityflow4x4/exp01/logger/
+#     2026_05_26-15_39_33_DTL.log
+#     2026_05_26-15_39_33_BRF.log
+#
+# Resumen final del experimento:
+#   ATT final ep 199 TEST:  323.3 s
+#   Mejor TEST ATT:         322.1 s (ep 185)
+#   Throughput final:       2933 vehículos
+#   Episodios totales:      200

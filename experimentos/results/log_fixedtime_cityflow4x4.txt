@@ -1,0 +1,4 @@
+building world...
+FixedTime Agent has no Network model
+2026-05-14 21:47:04 (INFO): Final Travel Time is 575.5565, mean rewards: -385.4986, queue: 12.3694, delay: 1.8439, throughput: 2645
+2026-05-14 21:47:04 (INFO): Total time taken: 16.677257299423218

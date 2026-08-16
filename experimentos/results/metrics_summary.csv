@@ -1,0 +1,15 @@
+algoritmo,dataset,episodio,ATT,AQL,delay,throughput,log_file
+axlight,cityflow4x4,199,323.3,1.23,0.07,2933,2026_05_26-15_39_33_DTL.log
+colight,cityflow4x4,199,337.1,2.02,0.09,2929,2026_05_15-15_04_23_DTL.log
+fixedtime,cityflow4x4,0,575.56,12.3694,1.8439,2645,2026_05_14-21_46_48_BRF.log
+frap,cityflow4x4,199,327.8,1.47,0.08,2932,2026_05_23-15_59_07_DTL.log
+maxpressure,cityflow4x4,0,365.06,3.5972,1.7891,2928,2026_05_14-21_47_07_BRF.log
+mplight,cityflow4x4,199,331.3,1.7,0.09,2932,2026_05_15-09_27_19_DTL.log
+presslight,cityflow4x4,199,330.6,1.66,0.08,2930,2026_05_14-21_47_24_DTL.log
+axlight,cityflow_jinan3x4,199,304.3,5.46,0.22,4315,2026_05_27-04_53_26_DTL.log
+colight,cityflow_jinan3x4,199,302.2,5.41,0.21,4312,2026_05_15-19_58_38_DTL.log
+fixedtime,cityflow_jinan3x4,0,425.31,17.8678,3.2135,4283,2026_05_15-01_40_18_BRF.log
+frap,cityflow_jinan3x4,199,305.1,5.54,0.22,4315,2026_05_24-18_58_36_DTL.log
+maxpressure,cityflow_jinan3x4,0,328.96,8.1778,3.2793,4306,2026_05_15-01_40_36_BRF.log
+mplight,cityflow_jinan3x4,199,309.2,5.99,0.24,4317,2026_05_15-12_14_23_DTL.log
+presslight,cityflow_jinan3x4,199,304.8,5.89,0.2,4314,2026_05_15-01_40_50_DTL.log

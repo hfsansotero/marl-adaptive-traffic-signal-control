@@ -1,0 +1,11 @@
+agent,dataset,n_inters,gini_queue,mean_queue,min_queue,max_queue
+axlight,cityflow4x4,16,0.3584,1.2976,0.2500,3.8083
+axlight,cityflow_jinan3x4,12,0.2291,6.1264,2.5944,13.1278
+colight,cityflow4x4,16,0.2357,1.7464,0.7000,3.5472
+colight,cityflow_jinan3x4,12,0.0899,5.5032,3.5750,6.5556
+frap,cityflow4x4,16,0.4180,1.4460,0.3194,5.1917
+frap,cityflow_jinan3x4,12,0.1787,5.8431,2.6611,8.6972
+mplight,cityflow4x4,16,0.4151,1.7139,0.4167,5.3556
+mplight,cityflow_jinan3x4,12,0.2041,6.2252,2.8500,9.8194
+presslight,cityflow4x4,16,0.2905,1.6094,0.4861,3.9944
+presslight,cityflow_jinan3x4,12,0.1126,5.4634,2.9778,6.9778

@@ -1,0 +1,4 @@
+building world...
+Maxpressure Agent has no Network model
+2026-05-14 21:47:21 (INFO): Final Travel Time is 365.0634, mean rewards: -248.9008, queue: 3.5972, delay: 1.7891, throughput: 2928
+2026-05-14 21:47:21 (INFO): Total time taken: 13.06222128868103

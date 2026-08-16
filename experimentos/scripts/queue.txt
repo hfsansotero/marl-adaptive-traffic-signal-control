@@ -1,0 +1,11 @@
+# Cola de experimentos pendientes
+# Formato: <agente> <dataset>
+# El script las ejecuta en orden, una tras otra.
+# Líneas vacías y líneas que empiezan por '#' se ignoran.
+#
+# Agentes válidos: fixedtime, maxpressure, presslight, mplight, colight, frap, axlight
+# Datasets válidos: cityflow4x4 (Hangzhou 4x4), cityflow_jinan3x4 (Jinan 3x4)
+#
+# Ejemplo (descomentar para usar):
+# axlight     cityflow4x4
+# axlight     cityflow_jinan3x4
