@@ -21,12 +21,28 @@ Sobre el framework **LibSignal** (que unifica varios simuladores y algoritmos de
 
 ### Contribuciones originales
 
-1. **Port a PyTorch de Advanced-XLight** (Zhang et al., ICML 2022) e integración como agente nativo en LibSignal. La implementación original está en TensorFlow 2.4 y no era compatible con la API de LibSignal. El port incluye tres iteraciones para corregir errores de la implementación inicial relacionados con el cálculo de la presión por movimiento y la codificación de fases activas (ver `LibSignal/agent/axlight.py`).
+1. **Port a PyTorch de Advanced-XLight** (Zhang et al., ICML 2022) e integración como agente nativo en LibSignal. La implementación original está en TensorFlow 2.4 y no era compatible con la API de LibSignal (ver `LibSignal/agent/axlight.py`).
 2. **Parches de GPU para LibSignal**: el repositorio público de LibSignal tiene un problema documentado (issue #35) que impide aprovechar la GPU en los agentes PressLight, CoLight y MPLight. Se han parcheado los cuatro agentes y el trainer para reducir el tiempo de entrenamiento entre un 67 % y un 86 % en los algoritmos de arquitectura ligera.
 3. **Pipeline experimental reproducible**: scripts de lanzamiento secuencial vía cola, monitor de progreso en tiempo real, generación automática de figuras y análisis de equidad mediante el índice de Gini sobre la cola por intersección.
 4. **Análisis comparativo de las tres representaciones del estado** —cola, presión y ATS— sobre las mismas condiciones experimentales, evaluando además la dimensión de equidad espacial.
 
 La memoria completa del TFM (contexto teórico, metodología detallada, discusión de resultados) se entrega por separado en formato PDF y no forma parte de este repositorio.
+
+---
+
+## Demos: control adaptativo en acción
+
+Reproducciones extraídas con el visualizador oficial de CityFlow a partir de los logs de replay reales de los experimentos, mostrando el comportamiento de la política aprendida frente al baseline de tiempo fijo.
+
+| Fixed Time — Hangzhou 4×4 | Advanced-XLight — Hangzhou 4×4 |
+| :---: | :---: |
+| ![Fixed Time en Hangzhou 4x4](experimentos/results/demos/fixedtime_hz4x4.gif) | ![AXLight en Hangzhou 4x4](experimentos/results/demos/axlight_hz4x4.gif) |
+| Ciclos fijos sin adaptación a la demanda real | Port original a PyTorch, contribución de este trabajo (§ más abajo) |
+
+| CoLight — Jinan 3×4 |
+| :---: |
+| ![CoLight en Jinan 3x4](experimentos/results/demos/colight_jinan3x4.gif) |
+| Mejor ATT y algoritmo más equitativo en este benchmark (coordinación explícita vía GAT) |
 
 ---
 
@@ -65,7 +81,8 @@ tfm-sem/
     └── results/                         ← logs y resultados oficiales del TFM
         ├── log_<agente>_<dataset>.txt   ← stdout de cada experimento
         ├── gini_summary.csv             ← índice Gini calculado
-        └── figures/                     ← figuras generadas por plot_results.py / plot_roadnets.py
+        ├── figures/                     ← figuras generadas por plot_results.py / plot_roadnets.py
+        └── demos/                       ← GIFs de reproducción visual (ver sección "Demos" arriba)
 ```
 
 ### ¿Dónde están las cosas importantes?
