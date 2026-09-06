@@ -1,11 +1,15 @@
 # MARL para semáforos inteligentes
 
+**Idioma / Language**: **ES** | [EN](README.en.md)
+
 Pipeline experimental de Trabajo Fin de Máster sobre **control adaptativo de semáforos urbanos mediante Multi-Agent Reinforcement Learning (MARL)**, evaluando siete algoritmos sobre dos benchmarks de tráfico real (Hangzhou 4×4 y Jinan 3×4) con el simulador CityFlow y el framework LibSignal.
 
 - **Autor**: Héctor Fernández San Sotero
 - **Dirección**: Francisco Soltero
 - **Centro**: Universidad Alfonso X el Sabio (UAX)
 - **Curso**: 2025-2026
+
+> Política de mantenimiento bilingüe: `README.md` es la versión principal en español. La versión en inglés está en `README.en.md`; cualquier cambio de contenido en uno debe replicarse en el otro para mantener ambas versiones alineadas.
 
 ---
 
